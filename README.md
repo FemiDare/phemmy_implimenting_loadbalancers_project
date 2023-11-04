@@ -36,3 +36,30 @@ I then updated my systems on both terminals and proceeded to install apache on b
 
 ![Screenshot 2023-11-04 141906](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/133ab410-0d63-4f2d-8329-5de9844b6cff)
 
+I then proceeded to configure apache on both systems to serve content on port 8000 by adding a new "listen" directive on the port.config file
+
+I also went to /etc/apache2/sites-available/000-default.conf on both apache systems and editted the listening port from port 80 to port 8000
+
+I then restarted apache on both first and second systems
+
+![Screenshot 2023-11-04 142203](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/f488d2d2-71df-47e4-8d24-80d13834e7e2)
+
+![Screenshot 2023-11-04 153744](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/889cc634-5e64-4c5e-a0d2-8181755b3ec5)
+
+![Screenshot 2023-11-04 142354](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/dafc8674-76c1-40af-a5cf-06a10d4f9156)
+
+![Screenshot 2023-11-04 153853](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/a7ce5eb1-022c-458b-a20d-038cba2663e2)
+
+![Screenshot 2023-11-04 142618](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/51d6daaa-c9c9-4b67-82d7-d5b90de71aba)
+
+![Screenshot 2023-11-04 153926](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/a0a863c5-6a13-4001-88b2-d965ada5f68b)
+
+![Screenshot 2023-11-04 142646](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/37fd64c6-e14e-4134-a29c-a220c4930dcc)
+
+![Screenshot 2023-11-04 154000](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/be55ccc1-4695-4472-a8d5-e5212d4272bf)
+
+![Screenshot 2023-11-04 142921](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/c3f7d818-6b38-43ac-9445-3dc697c41019)
+
+![Screenshot 2023-11-04 154047](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/6515fdf0-91ed-4e31-9529-176a00f8cafa)
+
+
