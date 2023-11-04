@@ -116,4 +116,23 @@ I then updated this system and then installed nginx on the system and confirmed 
 
 ![Screenshot 2023-11-04 153101](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/0d6b9f3c-d903-493d-9b6b-0885a2927365)
 
+I then proceeded to open the nginx configuration file "loadbalancer.conf" and pasted the provided script/commands making sure to change the stated IP to the IPs of both my previously setup apache servers
+
+After that I proceeded to test the new configuration set and there were no errors so I then restarted nginx so as to load the new configuration
+
+I then ran the nginx public IP on my web browser and refreshed the page severally to confirm that it is serving the webpages from my previously set up apache web servers
+
+![Screenshot 2023-11-04 153146](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/0dc839cf-1932-41ee-bcea-ff8fd3c905a7)
+
+![Screenshot 2023-11-04 153520](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/bca3089b-127a-4a96-9b81-ab855cdac87b)
+
+![Screenshot 2023-11-04 154514](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/72f9d631-0e8e-422f-975d-78a59a69c780)
+
+![Screenshot 2023-11-04 154529](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/7d8b6b17-4ff8-40d5-ab62-65456d7c50de)
+
+![Screenshot 2023-11-04 154550](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/c21c83f8-a6e8-4c2f-ae88-dd064f2a7200)
+
+![Screenshot 2023-11-04 154655](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/33c7a10a-40dd-458f-adb6-2acff45a92d7)
+
+![Screenshot 2023-11-04 154820](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/b9b570ec-d4b2-4fa6-b960-644f9eb6783d)
 
