@@ -62,4 +62,37 @@ I then restarted apache on both first and second systems
 
 ![Screenshot 2023-11-04 154047](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/6515fdf0-91ed-4e31-9529-176a00f8cafa)
 
+I opened a file named index.html on both systems
+
+I then pasted the provided script into the file, taking sure to paste the public ip of each instance in their corresponding html file
+
+I then changed ownership of both files and then did an override of the default html file of apache webserver
+
+I then did a restart of apache on both systems
+
+I ran the individual public ip on the web browser to confirm the webpage and the listening port
+
+![Screenshot 2023-11-04 144119](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/ed2a7996-a6e6-4a5d-aba0-c7967ee37ac4)
+
+![Screenshot 2023-11-04 154109](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/77acf4ba-8846-4700-8d8c-1199f0916c0e)
+
+![Screenshot 2023-11-04 144341](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/9ca9f486-680a-4bf4-b81d-5b9c099812e7)
+
+![Screenshot 2023-11-04 154209](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/9ea52aac-75c8-41f1-bba6-17d1a466c868)
+
+![Screenshot 2023-11-04 144430](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/18fb5115-67b6-4b6b-9e65-2c1e3ce45634)
+
+![Screenshot 2023-11-04 154242](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/ddfbcc97-a0ee-4c19-b5f0-aa552657c8a5)
+
+![Screenshot 2023-11-04 144500](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/eaff799d-317a-43ad-9447-5071a01768ea)
+
+![Screenshot 2023-11-04 154302](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/c9205a32-8948-4027-8937-d24ad18f6b51)
+
+![Screenshot 2023-11-04 144541](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/d14242cf-2bbf-474d-847c-8b5983db7244)
+
+![Screenshot 2023-11-04 154324](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/06ee731b-a35e-48fc-be98-95070fe6f72d)
+
+![Screenshot 2023-11-04 144716](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/2d3eb7b4-c62a-4934-b405-dcd41c716085)
+
+![Screenshot 2023-11-04 154422](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/a3ce0657-7073-4d41-9ac4-9cf476936a45)
 
