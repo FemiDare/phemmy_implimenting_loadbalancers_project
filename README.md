@@ -96,3 +96,24 @@ I ran the individual public ip on the web browser to confirm the webpage and the
 
 ![Screenshot 2023-11-04 154422](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/a3ce0657-7073-4d41-9ac4-9cf476936a45)
 
+I then launched an EC2 instance on AWS named "nginx_balance" and then editted the inbound rules to open port 80 so traffic can come from anywhere
+
+I then opened a new terminal window and connected to this instance and changed the hostname to "nginxbalancer"
+
+I then updated this system and then installed nginx on the system and confirmed that nginx was active/running on the system
+
+![Screenshot 2023-11-04 152218](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/b74b37ad-fbfb-4f17-af7c-de6280471f3c)
+
+![Screenshot 2023-11-04 152458](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/ab90f0f9-56f9-491b-a82e-c1b141de5fe1)
+
+![Screenshot 2023-11-04 152548](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/8f3c855a-b5b3-4117-88ff-ea37b68d3478)
+
+![Screenshot 2023-11-04 152730](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/03371ac0-ea96-4e25-9871-6be1d2bcaeb8)
+
+![Screenshot 2023-11-04 152814](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/847f1e42-3d8d-4f48-826b-2ee337449e27)
+
+![Screenshot 2023-11-04 153016](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/c251cffc-4d46-437e-b27e-fd8cb04e0662)
+
+![Screenshot 2023-11-04 153101](https://github.com/FemiDare/phemmy_implimenting_loadbalancers_project/assets/140294606/0d6b9f3c-d903-493d-9b6b-0885a2927365)
+
+
